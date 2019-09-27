@@ -91,7 +91,6 @@ const wishlist = (state = initialState, action) => {
                 ...state,
                 isLoading: false,
                 isFulfilled: true,
-                wishlists: action.payload.data.data
             }
 
         case 'ADD_TO_CART_PENDING':
@@ -133,7 +132,6 @@ const wishlist = (state = initialState, action) => {
                 ...state,
                 isLoading: false,
                 isFulfilled: true,
-                wishlists: action.payload.data.data
             }
 
         default:
